@@ -1,0 +1,28 @@
+/* body {
+    background-color: lightblue;
+} */
+
+.columns {
+    justify-content: space-evenly !important;
+}
+
+.progress::after {
+    content: attr(data-progress) "";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    border-radius: 50%;
+    background: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.progress {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 0;
+}
